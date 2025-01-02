@@ -1,5 +1,19 @@
-<html>
-    <head> </head>
+<!-- fix: Page lacks the HTML doctype, thus triggering quirks-mode -->
+<!DOCTYPE html>
+
+<!-- fix : <html> element does not have a [lang] attribute  -->
+<html lang="en">
+    <head>
+        <!-- fix: Document doesn't have a <title> element -->
+        <title>C339 L08</title>
+
+        <!-- fix: Does not have a <meta name="viewport"> tag with width or initial-scale -->
+        <!-- also fix: Document doesn't use legible font sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- fix: Document does not have a meta description -->
+        <meta name="description" content="C339 L08 Lighthouse" />
+    </head>
     <body>
         Hello World!
     </body>
